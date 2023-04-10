@@ -1,0 +1,38 @@
+.table-container {
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+  
+  .title, .subtitle {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+  } 
+
+
+  .content:hover{
+    transition: 0.7s ease;
+    color: white;
+    background-color: green;
+  }
+  
+  
+  
+  
+  
+  
